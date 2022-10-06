@@ -1,0 +1,97 @@
+
+*{
+    box-sizing: border-box;
+    font-family: montserrat;
+    margin: 0;
+}
+
+.robot{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B7D1F9;
+}
+
+h3{
+    color: #3D7BDC;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+p{
+    color: #3D7BDC;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #3D7BDC;
+
+}
+.head,
+.tommy,
+.leftHand,
+.rightHand,
+.legs{
+    background-color: #3D7BDC;
+}
+
+.head{
+    width: 200px;
+    height: 150px;
+    border-radius: 200px 200px 0 0;
+    margin-bottom: 10px;
+    transition: width 1s;
+}
+
+.head:hover{
+    width: 300px;
+}
+
+
+.eyes{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    top: 110px;
+    left: 35px;
+    margin: 0 20px;
+}
+
+.bodyRegion{
+    margin: 0 auto;
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+.leftHand,.rightHand,.legs{
+    width: 40px;
+    height: 120px;
+    border-radius: 100px;
+}
+
+.tommy{
+    width:200px;
+    height: 200px;
+    border-radius: 0 0 50px 50px;
+}
+
+.legRegion{
+    position: relative;
+    top: -50px;
+    display: flex;
+    gap: 50px;
+}
+
+.leftLeg:hover{
+    transform: rotate(20deg);
+}
+
+
+
+
